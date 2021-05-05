@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <form action="Actividad14.php" method="post">
+            <fieldset>
+              <legend><h1>Reloj Mundial</h1></legend>
+              Ingrese hora (CDMX):<input type="time" name="HoraMex">
+              Elige los paises que quieres consultar:
+              <br>              
+              <table>
+                <tr>
+                  <td> <input type="checkbox" name="NY" value="1">Nueva York</td>
+                  <td><input type="checkbox" name="AP" value="2">Sao Paulo</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="M" value="3">Madrid</td>
+                  <td><input type="checkbox" name="P" value="4">Paris</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="R" value="5">Roma</td>
+                  <td><input type="checkbox" name="A" value="6">Atenas</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="B" value="7">Beijin</td>
+                  <td><input type="checkbox" name="T" value="8">Tokio</td>
+                </tr>
+              </table>
+              <input type="submit" name="Enviar" value="Consultar">
+            </fieldset>
+          </form>
+        </td>
+        <td>
+              <form action="Actividad14.php" method="post">
+                <fieldset>
+                <legend><h1>Calcula Cumpleaños</h1></h1></legend>
+                  Ingrese su fecha de nacimiento: <input type="date" name="fechacumple">
+                  <br>
+                  ¿Qué quiere consultar?
+                  <br>
+                  Días para el proximo cumpleaños:<input type="checkbox" name="diascumple" value="1">
+                  <br>
+                  Horas para el proximo cumpleaños:<input type="checkbox" name="horascumple" value="2">
+                  <br>
+                  Minutos para el proximo cumpleaños:<input type="checkbox" name="minutoscumple" value="3">
+                  <br>
+                  ¿Será en fin de semana?<input type="checkbox" name="cuandocumple" value="4">
+                  <br>
+                  <input type="submit" name="Enviar" value="Calcular">
+                </fieldset>
+              </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
